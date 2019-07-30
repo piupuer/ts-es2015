@@ -20,3 +20,5 @@ node_modules/
 # Transpiled JavaScript files from Typescript
 /dist
 
+package-lock.json
+
