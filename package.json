@@ -1,0 +1,15 @@
+{
+  "name": "ts-es2015",
+  "version": "1.0.0",
+  "description": "Typescript to Es2015",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "piupuer",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
