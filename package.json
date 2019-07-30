@@ -4,12 +4,14 @@
   "description": "Typescript to Es2015",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "npm run clean && tsc",
+    "clean": "rimraf -p dist"
   },
   "author": "piupuer",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "rimraf": "^2.6.3",
     "typescript": "^3.5.3"
   }
 }
