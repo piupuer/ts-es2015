@@ -13,7 +13,10 @@
     // 是否生成相应的“地图”的文件。
     "sourceMap": true,
     // 指定输入文件的根目录。使用——outDir控制输出目录结构。
-    "rootDir": "src",
+    "rootDirs": [
+      "src",
+      "test"
+    ],
     // 将输出结构重定向到目录。
     "outDir": "dist"
   }
